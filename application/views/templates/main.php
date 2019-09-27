@@ -1,12 +1,12 @@
 <?php 
-	echo $this->load->view('partials/header');
-	echo $this->load->view('partials/masthead');
+	$this->load->view('partials/header');
+	$this->load->view('partials/masthead');
 ?>
 
 <div id="content-container">
 	<div id="content" class="container_12 clearfix">
 		<div class="grid_3">
-			<?php echo $this->load->view('partials/navleft'); ?>
+			<?php $this->load->view('partials/navleft'); ?>
 		</div>
 		<div class="grid_9">
 			<div id="content-frame">
@@ -17,5 +17,5 @@
 </div>
 
 <?php
-	echo $this->load->view('partials/footer');
+	$this->load->view('partials/footer');
 ?>
